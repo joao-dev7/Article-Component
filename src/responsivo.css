@@ -60,7 +60,7 @@
     .balao {
         grid-template-columns: .33fr .12fr .12fr .12fr;
         top: 46.1rem;
-        left: 2.5rem;
+        left: 2.7rem;
         width: 305px;
         height: 68px;
         border-top-left-radius: 0;
@@ -78,37 +78,44 @@
         font-size: 14px;
         letter-spacing: 4px;
         margin-left: 4px;
-        margin-bottom: 18px;
     }
     
-    .balao a img  {
-        margin-top: 1px;
+    .balao img  {
         width: 20px;
         height: 19.8px;
     }
     
 }
 @media (min-width: 350px) and (max-width: 360px) { 
-    .balao {top: 43.3rem;left: 2.2rem;}
+    .balao {top: 43.3rem;left: 9rem;}
+}
+@media (min-width: 365px) and (max-width: 375px){ 
+    .balao {top: 46.1rem;}
 }
 @media (min-width: 410px) and (max-width: 420px) { 
     .balao {top: 43.2rem;left: 4.2rem;}
 }
-@media (max-width: 414px) and (min-height: 896px) {
-    .balao {top: 49.4rem;}
+@media (min-width: 414px) and (max-height: 896px) {
+    .balao {top: 49.3rem;}
 }
-@media (max-width: 414px) and (min-height: 846px) {
-    .balao {top: 47.4rem;}
+@media (min-width: 414px) and (max-height: 846px) {
+    .balao {top: 47.35rem;}
 }
-@media (max-width: 360px) and (min-height: 640px) {
+@media (min-width: 414px) and (max-height: 736px) {
+    .balao {top: 43.15rem;}
+}
+@media (max-width: 360px) and (max-height: 640px) {
     .balao {top: 39.5rem;left: 2.1rem;}
 }
-@media (max-width: 1440px) {
-    .balao {top: 35.5rem;left: 70.17rem;}
+@media (max-width: 360px) and (min-height: 740px) {
+    .balao {top: 43.3rem;left: 2.1rem;}
 }
-@media (max-width: 1280px) {
+@media (min-width: 1440px) {
+    .balao {top: 36.4rem;left: 88.6rem;}
+}
+@media (min-width: 1280px) {
     .balao {top: 31.6rem;left: 64.03rem;}
 }
-@media (max-width: 1280px) and (min-height: 950px) {
+@media (min-width: 1280px) and (min-height: 950px) {
     .balao {top: 37.2rem;}
 }
