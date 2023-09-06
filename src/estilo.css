@@ -1,0 +1,129 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(210, 46%, 95%);
+}
+
+.box {
+    display: grid;
+    justify-content: end;
+    width: 730px;
+    height: 270px;
+    border-radius: 15px;
+    background-image: url(../images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-size: 46.4%;
+    box-shadow: -2px 40px 63px -28px hsl(214, 17%, 51%,  0.46);
+}
+
+
+.box .texto {
+    background-color:hsl(210, 46%, 95%);
+    width: 370px;
+    padding-top: 25px;
+    padding-bottom: 28.5px;
+    padding-left: 38px;
+    padding-right: 45px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.box .texto b {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box .texto p.subTexto {
+    width: 350px;
+    font-size: 12px;
+    color:hsl(214, 17%, 51%);
+    line-height: 20px;
+}
+
+.box .texto .compartilhar {
+    display: grid;
+    grid-template-columns: .5fr 2.6fr .4fr;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.box .texto .compartilhar img.michelle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.box .texto .compartilhar p {
+    line-height: 19px;
+    font-size: 12px;
+    color:hsl(212, 23%, 69%);
+}
+.box .texto .compartilhar b {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+svg {
+    width : 15px; 
+    height : 13px;
+    fill: #6E8098;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+svg.ativado{ 
+    background-color: #6E8098;
+    fill: hsl(210, 46%, 95%);
+}
+
+.balao {
+    display: none;
+    grid-template-columns: .47fr .15fr .15fr .15fr;
+    place-items: center;
+    position: absolute;
+    top: 36.5rem;
+    left: 88.58rem;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.balao:after{ 
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /*Aqui entra a cor da "aba" do balão */
+    border-top: 10px solid hsl(217, 19%, 35%);
+    top: 40px; /*localização. Experimente alterar para 'bottom'*/
+    left: 45%;
+}
+
+.balao p.share {
+    color: hsl(212, 23%, 69%);
+    text-indent: 14px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.balao a img  {
+    height: 16px;
+}

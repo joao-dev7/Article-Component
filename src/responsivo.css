@@ -1,0 +1,114 @@
+@media (max-width: 420px) {
+    
+    .box {
+        align-items: end;
+        justify-content:normal ;
+        width: 305px;
+        height: 523px;
+        background-position: 60% 0%;
+        background-size: 100%;
+        box-shadow: -2px 40px 63px -28px hsl(214, 17%, 51%,  0.30);
+    }
+    
+    .box .texto {
+        width: 260px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 23px;
+        padding-right: 22.4px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .box .texto b {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .box .texto p.subTexto {
+        width: 250px;
+        font-size: 12.6px;
+        line-height: 20.5px;
+    }
+    
+    .box .texto .compartilhar {
+        grid-template-columns: .9fr 2.6fr .6fr;
+        margin-top: 10px;
+    }
+
+    .box .texto .compartilhar img.michelle {
+        width: 43px;
+        height: 43px;
+    }
+    
+    .box .texto .compartilhar p {
+        font-size: 12.8px;
+    }
+    
+    svg {
+        width : 16px; 
+        height : 15px;
+        padding: 9px;
+    }
+
+    svg {
+        z-index: 999;
+    }
+    
+    .balao {
+        grid-template-columns: .33fr .12fr .12fr .12fr;
+        top: 46.1rem;
+        left: 2.5rem;
+        width: 305px;
+        height: 68px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    
+    .balao:after{ 
+        border: 0;
+    }
+    
+    .balao p.share {
+        text-indent: 14px;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-left: 4px;
+        margin-bottom: 18px;
+    }
+    
+    .balao a img  {
+        margin-top: 1px;
+        width: 20px;
+        height: 19.8px;
+    }
+    
+}
+@media (min-width: 350px) and (max-width: 360px) { 
+    .balao {top: 43.3rem;left: 2.2rem;}
+}
+@media (min-width: 410px) and (max-width: 420px) { 
+    .balao {top: 43.2rem;left: 4.2rem;}
+}
+@media (max-width: 414px) and (min-height: 896px) {
+    .balao {top: 49.4rem;}
+}
+@media (max-width: 414px) and (min-height: 846px) {
+    .balao {top: 47.4rem;}
+}
+@media (max-width: 360px) and (min-height: 640px) {
+    .balao {top: 39.5rem;left: 2.1rem;}
+}
+@media (max-width: 1440px) {
+    .balao {top: 35.5rem;left: 70.17rem;}
+}
+@media (max-width: 1280px) {
+    .balao {top: 31.6rem;left: 64.03rem;}
+}
+@media (max-width: 1280px) and (min-height: 950px) {
+    .balao {top: 37.2rem;}
+}
