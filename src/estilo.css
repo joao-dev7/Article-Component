@@ -21,6 +21,7 @@ body {
     width: 730px;
     height: 270px;
     border-radius: 15px;
+    background-color:hsl(210, 46%, 95%);
     background-image: url(../images/drawers.jpg);
     background-repeat: no-repeat;
     background-size: 46.4%;
