@@ -90,17 +90,26 @@
     .balao {top: 76.1%;left: 30%;}
 }
 @media (min-width: 365px) and (max-width: 375px){ 
-    .balao {top: 73.4%;}
+    .balao {top: 74%;}
 }
 @media (min-width: 410px) and (max-width: 420px) { 
     .balao {top: 71.5%;left: 13%;}
 }
-@media (max-width: 360px) and (max-height: 640px) {
+@media (max-height: 640px) {
     .balao {top: 80%;}
+}
+@media (max-height: 740px) {
+    .balao {top: 76.4%;}
+}
+@media (min-height: 840px) and (max-height: 850px){
+    .balao {top: 72.6%;}
 }
 @media (max-width: 360px) and (max-height: 740px) {
     .balao {left: 2.1rem;}
 }
 @media (min-width: 1280px) and (max-width: 1300px){
     .balao {left: 64rem;}
+}
+@media (min-width: 1430px) and (max-width: 1440px){
+    .balao {left: 70.2rem;}
 }
