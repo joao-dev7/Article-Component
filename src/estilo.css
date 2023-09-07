@@ -93,8 +93,8 @@ svg.ativado{
     grid-template-columns: .47fr .15fr .15fr .15fr;
     place-items: center;
     position: absolute;
-    top: 35.3rem;
-    left: 70.15rem;
+    top: 51%;
+    left: 60%;
     width: 200px;
     height: 40px;
     border-radius: 7px;
